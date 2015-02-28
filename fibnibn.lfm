@@ -1,0 +1,53 @@
+object f1: Tf1
+  Left = 841
+  Height = 140
+  Top = 256
+  Width = 431
+  BorderIcons = [biSystemMenu]
+  Caption = 'تحديد'
+  ClientHeight = 140
+  ClientWidth = 431
+  Color = 16438485
+  Position = poScreenCenter
+  LCLVersion = '1.0.4.0'
+  object ibnibn: TRadioButton
+    Left = 344
+    Height = 28
+    Top = 40
+    Width = 71
+    BidiMode = bdRightToLeft
+    Caption = 'ابن الابن'
+    Checked = True
+    ParentBidiMode = False
+    TabOrder = 0
+    TabStop = True
+  end
+  object ibnibn2: TRadioButton
+    Left = 327
+    Height = 28
+    Top = 72
+    Width = 88
+    BidiMode = bdRightToLeft
+    Caption = 'ابن ابن الابن'
+    ParentBidiMode = False
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 167
+    Height = 17
+    Top = 8
+    Width = 251
+    Caption = 'حدد أحد الخيارين ..هل هو ابن الابن أم ابن ابن الابن ؟'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 33
+    Top = 96
+    Width = 87
+    Caption = 'إغلاق'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+end
